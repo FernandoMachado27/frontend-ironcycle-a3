@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ironcycle</title>
+    <link rel="stylesheet" href="..\css\styles.css">
+
+</head>
+<body class="cor-fundo">
+    <header class="cabecalho">
+        <h1 class="texto-cabecalho">IRONCYCLE</h1>
+        <nav class="menu"> 
+            <ul class="menu-lista">
+                <li class="menu-item"><a class="menu-link ativo" href="#">Home</a></li>
+                <li class="menu-item"><a class="menu-link" href="./cadastroVeiculo.html">Cadastrar veículo</a></li>
+                <li class="menu-item"><a class="menu-link" href="./cadastroCliente.html">Cadastrar clientes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="banner-container">
+          <img class="banner-imagem" src="..\imgs\moto-principal.jpg" alt="">
+          <h4 class="banner-subtitulo">Se estava procurando a melhor seguradora para sua moto, você acaba de encontrar. <br> 
+            Preços e ofertas que não são abusivas para que você não tenha dor de cabeça antes mesmo de solicitar o serviço e fechar contrato. <br> 
+            Somos pioneiros no mercado de seguro de motos realizados de forma 100% online. <br>
+            <br><strong style="font-weight:1000; color: rgb(229, 255, 0); text-shadow: 0 6px 6px black;">Sem burocracia. Rápido. Prático. Seguro.</strong> <br>
+            <br> Prezamos pelo bem estar e atendemos todos da mesma forma. Afinal de contas, para nós cada cliente é único e especial.
+          </h4>
+        </div>
+      </section>
+    <section class="escolhe-plano">
+        <strong><h2>Escolha seu plano e converse com um de nossos funcionários</h2></strong>
+        <h4>Em pouco menos de algumas horas, seu contrato estará em suas mãos, poupando você de todo aquele processo arcaico e demorado das seguradoras comuns.</h4>
+    </section>
+
+    <main>
+        <ul class="produtos">
+            <li><h2>Gold</h2>
+            <img>
+            <p class="descricao">Proteção contra batidas e acidentes. <br> Cobrimos 60% do valor.</p>
+
+            <li><h2>Diamond</h2> 
+            <img>
+            <p class="descricao">Proteção contra batidas e acidentes. <br> Cobrimos 100% do valor.</p> 
+
+            <li><h2>Platinum</h2>
+            <img>
+            <p class="descricao">Benefícios do plano Diamond + <br> disponibilidade de veículo para uso.</p>
+        </ul>
+    </main>
+
+    <div class="fotos-motos">
+        <span class="fotos">
+            <img src="..\imgs\moto1.jpg" alt="">
+        </span>
+        <span class="fotos">
+            <img src="..\imgs\moto2.jpg" alt="">
+        </span>
+        <span class="fotos">
+            <img src="..\imgs\moto3.jpg" alt="">
+        </span>
+    </div>
+
+    <h2 class="titulo-perguntas">Perguntas frequentes</h2>
+    <div class='perguntas'>
+        <input type='checkbox' id='pergunta-1'>
+        <label for='pergunta-1'>Tudo é realizado de forma online?</label>
+        <div class='resposta'>
+          Sim, no intuito de acabar com toda a burocracia e modernizar de vez o mercado de seguros de motos de alto luxo, realizamos <strong>todo o processo</strong> de forma  online.
+        </div>
+      </div>
+      
+      <div class='perguntas'>
+        <input type='checkbox' id='pergunta-2'>
+        <label for='pergunta-2'>Caso eu queira cancelar meu seguro, como faço?</label>
+        <div class='resposta'>
+          Para cancelar, basta comunicar um de nossos correspondentes. Sem burocracia para contratar e cancelar. Somos 100% transparentes.
+        </div>
+      </div>
+
+      <div class='perguntas'>
+        <input type='checkbox' id='pergunta-3'>
+        <label for='pergunta-3'>No plano platinum é disponibilizado uma moto zero KM?</label>
+        <div class='resposta'>
+          Não. Possuímos diversas motos que sempre rotacionam na nossa frota para nossos clientes usufruirem. O cliente escolhe a dedo a moto.
+        </div>
+    </div>
+
+    <section class="moto-texto">
+        <div class='moto-final'>
+            <img src="..\imgs\moto5.jpg">
+        </div>
+        <div class="texto-moto-final">
+            <p>Seguro. Prático. <br> Rápido. Inovador</p>
+        </div>
+    </section>
+
+    <section class="formulario">
+        <div class="text-form">
+             <p>Se interessou por nossas propostas? <br></p> 
+             <h1><strong>Fale conosco</strong> <br></h1> 
+             <p>Trabalhamos dia e noite para proporcionar a melhor experiência possível. <br>
+                Retornamos o contato assim que possível.</p>
+        </div>
+        <div class="container-page" id="Container">
+            <form action="">
+                <div class="input-line-container">
+                    <span class="nome-input">Seu nome</span>
+                    <input type="text" name="nome" class="input-line">
+                </div>
+                <div class="input-line-container">
+                    <span class="email-input">Seu Email</span>
+                    <input type="text" name="email" class="input-line">
+                </div>
+                <div class="input-line-container">
+                    <span class="mensagem-input">Deixe sua mensagem</span>
+                    <input type="text" name="mensagem" class="input-line">
+                </div>
+                <input type="button" value="Enviar" class="button-enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <h1 class="titulo-rodape">IRONCYCLE</h1>
+        <p class="copyright">&copy; Copyright Ironcycle - 2022. <br> Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

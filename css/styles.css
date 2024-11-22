@@ -1,0 +1,427 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem  5%;
+    background-color: black;
+    font-family: "Barlow";
+}
+
+.texto-cabecalho {
+    color:  rgb(229, 255, 0);
+    font-family: "Barlow";
+    font-size: 2.5rem;
+}
+
+.banner-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .banner-imagem {
+    width: 100%;
+  }
+  
+  .banner-subtitulo {
+    position: absolute;
+    color: #fdfdfd;
+    font-size: 1.5rem;
+    text-shadow: 0 4px 4px black;
+    font-family: "Barlow";
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+.cor-fundo, .escolhe-plano, .rodape, .titulo-rodape, .copyright, .container-page, form, .nome-container, .input-line-container, .input-line, .button-enviar, .formulario, .text-form, .text-form h1, .text-form p, .moto-texto, .moto-texto div, .texto-moto-final, .moto-final, .fotos-carros, .fotos, .fotos img, .menu-lista, .menu-link, .menu-link.ativo, .menu-link:hover, .menu-item, .menu-item:last-child .menu-link, .titulo-perguntas, .perguntas, .perguntas input, .perguntas .resposta, .perguntas label, .perguntas input:checked ~ .resposta, .descricao, .produtos, .produtos li, .produtos li:hover, .produtos li:active, .produtos li:hover h2, .produtos h2, .produtos p {
+    font-family: "Barlow";
+    color: white;
+}
+
+.cor-fundo {
+    background: black;
+}
+
+.escolhe-plano {
+    background: black;
+    padding: 30px 0 10px 0;
+}
+
+.escolhe-plano h2, .escolhe-plano h4 {
+    text-align: center;
+    text-shadow: 0 4px 4px black;
+}
+
+.escolhe-plano h2 {
+    color: white;
+    font-size: 1.75rem;
+}
+
+.escolhe-plano h4 {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.rodape {
+    text-align: center;
+    background: black;
+    padding: 40px 0;
+    font-size: 1.3rem;
+}
+
+.titulo-rodape, .copyright {
+    color: white;
+}
+
+.container-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+
+.nome-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-line-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.input-line {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid whitesmoke;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.button-enviar {
+    width: 100%;
+    height: 45px;
+    border-radius: 55px;
+    background: rgb(229, 255, 0);
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.formulario {
+    display: inline-block;
+    padding: 50px 0 0 50px;
+}
+
+.text-form {
+    width: 600px;
+    padding: 2rem 2rem;
+}
+
+.text-form h1 {
+    font-size: 2.5rem;
+    color: rgb(229, 255, 0);
+}
+
+.text-form p {
+    font-size: 1.75rem;
+    color: white;
+    padding: 1rem 1rem;
+}
+
+.moto-texto {
+    background-color: black;
+}
+
+.moto-texto div {
+    display: inline-block;
+}
+
+.texto-moto-final {
+    float: right;
+    font-size: 3.5rem;
+    padding: 200px 40px 20px 0;
+}
+
+.moto-final {
+    display: flex;
+    align-items: center;
+    border-top: none;
+    padding: 50px 0 0 50px;
+}
+
+.fotos-motos {
+    display: flex;
+    border-top: none;
+    padding-top: 0;
+    background-color: black;
+}
+
+.fotos {
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
+.fotos img {
+    max-width: 100%;
+}
+
+.menu-lista {
+    display: flex;
+}
+
+.menu-link {
+    color: white;
+    margin-right: 1.50rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-link.ativo {
+    color:  rgb(229, 255, 0);
+    font-weight: bold;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-item:last-child .menu-link {
+    margin-right: 0;
+}
+
+.titulo-perguntas {
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.perguntas {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background: black;
+    color:  rgb(229, 255, 0);
+}
+
+.perguntas input, .perguntas .resposta {
+    display: none;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.perguntas label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.perguntas input:checked ~ .resposta {
+    display: block;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.produtos {
+    width: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color:  rgb(229, 255, 0);
+}
+
+.produtos li:active {
+    border-color: rgb(229, 255, 0);
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    color: white;
+}
+
+/*página do cadastro*/
+
+.box-cadastro {
+    background-color: black;
+    text-align: center;
+    font-family: "Barlow"
+}
+  
+.cadastro-title {
+    font-size: 2.5rem;
+    color:  rgb(229, 255, 0);
+    text-align: center;
+    margin-bottom: 2rem
+}
+  
+.cadastro-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.cadastro-form input[type="text"],
+.cadastro-form input[type="date"] {
+    width: 18.75rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 1.25rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+    margin-right: 0.625rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+}
+
+.cadastro-form input[type="text"]::placeholder,
+.cadastro-form input[type="date"]::placeholder {
+    color: rgb(255, 255, 255);
+}
+  
+.cadastro-form button {
+    width: 18.75rem;
+    height: 4.5rem;
+    margin-bottom: 0.625rem;
+    margin-right: 0.625rem;
+    border-radius: 1.25rem;
+    background:  rgb(229, 255, 0);
+    color: black;
+    text-transform: uppercase;
+    font-family: "Barlow";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.opcao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 18.75rem;
+    height: 4.5rem;
+    border: none;
+    border-radius: 1.25rem;
+    padding: 1rem;
+    margin-bottom: 0.625rem;
+    margin-right: 0.625rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.opcao option[value="none"] {
+    display: none;
+}
+
+.opcao option[value="gold"],
+.opcao option[value="platinum"],
+.opcao option[value="diamond"] {
+    color: rgb(229, 255, 0);
+    background-color: black;
+}
+
+input[type="text"]::placeholder {
+   color: rgb(255, 255, 255);
+}
+
+.cadastro-imagem {
+    width: 40%;
+}
+
+.tabela-cadastro {
+    font-family: "Barlow";
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 1.25rem;
+    color: black;
+    background-color:#f2f2f2
+}
+  
+.colunas-tabela,
+.editarButton,
+.removerButton {
+    font-family: "Barlow";
+    background-color:  rgb(229, 255, 0);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+}
+  
+.colunas-tabela:first-child {
+    border-top-left-radius: 1.25rem;
+}
+  
+.colunas-tabela:last-child {
+    border-top-right-radius: 1.25rem;
+}
+
+.removerButton {
+    border-radius: 1.25rem;
+}
+  
+.tabela-cadastro th,
+.removerButton,
+.tabela-cadastro td {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 8px;
+}

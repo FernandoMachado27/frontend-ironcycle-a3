@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Cliente</title>
+    <link rel="stylesheet" href="..\css\styles.css">
+    <script src="../js/scriptUser.js" defer></script>
+</head>
+<body class="cor-fundo">
+    <header class="cabecalho">
+        <h1 class="texto-cabecalho">IRONCYCLE</h1>
+        <nav class="menu"> 
+            <ul class="menu-lista">
+                <li class="menu-item"><a class="menu-link" href="./index.html">Home</a></li>
+                <li class="menu-item"><a class="menu-link ativo" href="#">Cadastrar Cliente</a></li>
+                <li class="menu-item"><a class="menu-link" href="./cadastroVeiculo.html">Cadastrar Veículo</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box-cadastro">
+        <h1 class="cadastro-title">Cadastro de clientes</h1>
+        <img class="cadastro-imagem" src="..\imgs\clientes.png" alt="">
+        <form class="cadastro-form">
+            <input type="text" id="nomeCompletoInput" placeholder="Nome completo">
+            <input type="text" id="cpfInput" placeholder="CPF">
+            <input type="date" id="dataNascimentoInput" placeholder="Data de Nascimento" required>
+            <input type="text" id="telefoneInput" placeholder="Telefone">
+            <input type="text" id="emailInput" placeholder="E-mail">
+            <button id="btnCadastrar">Cadastrar</button>
+        </form>
+    </div>    
+    <div>
+        <h1 class="cadastro-title">Lista de clientes cadastrados</h1>
+        <table class="tabela-cadastro">
+            <thead>
+                <tr>
+                    <th class="colunas-tabela">Id de cadastro</th>
+                    <th class="colunas-tabela">Nome completo</th>
+                    <th class="colunas-tabela">CPF</th>
+                    <th class="colunas-tabela">Data de nascimento</th>
+                    <th class="colunas-tabela">Telefone</th>
+                    <th class="colunas-tabela">E-mail</th>
+                    <th class="colunas-tabela">Ação</th>
+                </tr>
+            </thead>
+            <tbody class="motos__container">
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

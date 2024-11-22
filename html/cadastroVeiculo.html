@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Veículo</title>
+    <link rel="stylesheet" href="..\css\styles.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body class="cor-fundo">
+    <header class="cabecalho">
+        <h1 class="texto-cabecalho">IRONCYCLE</h1>
+        <nav class="menu"> 
+            <ul class="menu-lista">
+                <li class="menu-item"><a class="menu-link" href="./index.html">Home</a></li>
+                <li class="menu-item"><a class="menu-link ativo" href="#">Cadastrar veículo</a></li>
+                <li class="menu-item"><a class="menu-link" href="./cadastroCliente.html">Cadastrar clientes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box-cadastro">
+        <h1 class="cadastro-title">Cadastro de veículos</h1>
+        <img class="cadastro-imagem" src="..\imgs\moto6.jpg" alt="">
+        <form class="cadastro-form">
+            <input type="text" id="nomeInput" placeholder="Nome">
+            <input type="text" id="marcaInput" placeholder="Marca">
+            <input type="text" id="modeloInput" placeholder="Modelo">
+            <input type="text" id="anoInput" placeholder="Ano">
+            <input type="text" id="placaInput" placeholder="Placa">
+            <select class="opcao" id="opcaoInput">
+                <option value="none" style="color: white">Selecione o plano</option>
+                <option value="gold" class="laranja">Gold</option>
+                <option value="platinum" class="laranja">Platinum</option>
+                <option value="diamond" class="laranja">Diamond</option>
+            </select>
+            <button id="cadastrarButton">Cadastrar</button>
+        </form>
+    </div>
+    <div>
+        <h1 class="cadastro-title">Lista de veículos cadastrados</h1>
+        <table class="tabela-cadastro">
+            <thead>
+                <tr>
+                    <th class="colunas-tabela">Id de cadastro</th>
+                    <th class="colunas-tabela">Nome</th>
+                    <th class="colunas-tabela">Marca</th>
+                    <th class="colunas-tabela">Modelo</th>
+                    <th class="colunas-tabela">Ano</th>
+                    <th class="colunas-tabela">Placa</th>
+                    <th class="colunas-tabela">Plano</th>
+                    <th class="colunas-tabela">Ação</th>
+                </tr>
+            </thead>
+            <tbody class="motos__container">
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
