@@ -34,6 +34,7 @@ async function adicionarMoto() {
 
         if (response.ok) {
             // Se a solicitação POST for bem-sucedida, atualizar a lista de motos
+            alert("Moto cadastrada com sucesso!");
             buscarEMostrarMotos();
             // Limpar os campos do formulário
             nomeInput.value = "";
@@ -63,6 +64,7 @@ async function removerMoto(id) {
 
         if (response.ok) {
             // Se a solicitação DELETE for bem-sucedida, atualizar a lista de Motos
+            alert("Moto excluída com sucesso!");
             buscarEMostrarMotos();
         } else {
             console.error("Falha ao remover a moto.");
@@ -110,8 +112,6 @@ async function buscarEMostrarMotos() {
             motosContainer.appendChild(criarLinhaMoto(moto));
         });
     } catch (error) {
-        const listaVeiculos = document.querySelector(".motos__container");
-        listaVeiculos.innerHTML = `<tr><td colspan="5">Houve um erro ao carregar as motos: ${error}</td></tr>`;
     }
 }
 
