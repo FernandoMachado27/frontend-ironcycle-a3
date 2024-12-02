@@ -26,7 +26,6 @@ async function adicionarUsuario() {
         });
 
         if (response.ok) {
-            alert("Usuário cadastrado com sucesso!");
             buscarEExibirUsuarios();
             // Limpar campos do formulário
             nomeCompletoInput.value = "";
